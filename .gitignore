@@ -1,3 +1,36 @@
+# ===== Python =====
 __pycache__/
-*.pyc
-.vscode/
+*.py[cod]      # 屏蔽 .pyc, .pyo, .pyd
+*$py.class
+venv/
+.env/
+env/
+.venv/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# ===== C / C++ =====
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+build/
+bin/
+obj/
+Debug/
+Release/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
