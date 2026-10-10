@@ -1,4 +1,4 @@
-from coordinate_confirm.advanced.models import aiming as am
+from models import aiming as am
 def main():
     center = (150,100)
     targets = [

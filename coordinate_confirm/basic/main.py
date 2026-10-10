@@ -1,4 +1,4 @@
-from coordinate_confirm.basic.models import aiming as am
+from models import aiming as am
 
 center = (150,100)
 target = (210,60)
