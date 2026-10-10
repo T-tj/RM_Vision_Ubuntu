@@ -43,9 +43,10 @@ else:
 
 
 
-#循环：处理多个目标
-targets = [(210, 60), (90, 140), (150, 100)]  # 假设有多个目标坐标
+#循环：处理多个目标  for...in
+targets = [(210, 60), (90, 140), (150, 100)]  #假设有多个目标坐标
 for target in targets:                        #for循环遍历每个目标坐标给target
+    print(target)                             #遍历
     offset_x = target[0] - center[0]
     offset_y = target[1] - center[1]
     #print（"当前目标",target)

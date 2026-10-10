@@ -46,9 +46,9 @@ print(information)
 
 
 
-#Tuple（元组）   #元组与列表类似，区别在于元组的元素不能替换增改，元组使用小括号()表示
-number = (2,3)  #主要用于表达一组位置固定，各位置有确定含义的数据。eg.坐标，RGB颜色值等
-print(number)
+#Tuple（元组）    #元组与列表类似，区别在于元组的元素不能替换增改，元组使用小括号()表示
+number = (2,3)   #主要用于表达一组位置固定，各位置有确定含义的数据。eg.坐标，RGB颜色值等
+print(number)    #元组不能直接相减
 print(number[0])
 print(number[1])
 
@@ -71,4 +71,11 @@ print(student["play_game"])
 #print(student["weight"])     #访问不存在的键会报错 KeyError: 'weight'
 print("weight" in student)    #可先判断字典中是否存在某个键，返回布尔值
 
+#绝对值 
+# abs(x) x必须是数值类型
+abs(-7)  #返回7
+abs(0)   #返回0
+abs(7)   #返回7
+abs(-7.7)#返回7.7
 
+print(abs(-7.17)) #输出7.17
