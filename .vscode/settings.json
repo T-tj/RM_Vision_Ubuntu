@@ -1,0 +1,16 @@
+{
+    // 1. 全局文件视图排除（让左侧资源管理器变得极清爽）
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/build/": true,
+        "**/.pytest_cache": true
+    },
+    // 2. 全局搜索排除（避免全局搜索时搜出一堆编译产物和缓存，节省时间）
+    "search.exclude": {
+        "**/__pycache__": true,
+        "**/build/": true,
+        "**/venv": true,
+        "**/.venv": true
+    }
+}

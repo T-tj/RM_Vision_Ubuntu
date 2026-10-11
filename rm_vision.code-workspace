@@ -1,11 +1,26 @@
 {
     "folders": [
         {
-            "path": "." // 根目录（包含 python_learn 等）
+            "name": "📁 根目录",
+            "path": "."
         },
         {
-            "path": "sandbox/opencv_lab/cpp_test" // 独立引入 C++ 项目
+            "name": "⚙️ C++ OpenCV 项目",
+            "path": "sandbox/opencv_lab/cpp_test"
         }
     ],
-    "settings": {}
+    "settings": {
+        "files.exclude": {
+            "**/__pycache__": true,  // 隐藏 Python 缓存目录
+            "**/*.pyc": true,        // 隐藏 Python 缓存文件
+            "**/build/": true        // 隐藏 C++ 编译构建目录
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "ms-python.python",         // 推荐安装 Python 扩展
+            "ms-vscode.cpptools",       // 推荐安装 C/C++ 扩展
+            "ms-vscode.cmake-tools"     // 推荐安装 CMake 扩展
+        ]
+    }
 }
