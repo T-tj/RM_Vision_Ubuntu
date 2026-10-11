@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ OpenCV Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder:cpp_test}/build/main", // 显式用根名
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder:cpp_test}/build", // 工作目录必须在 build 下
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build"
+        }
+    ]
+}
