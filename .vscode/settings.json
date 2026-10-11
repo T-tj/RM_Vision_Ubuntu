@@ -12,5 +12,6 @@
         "**/build/": true,
         "**/venv": true,
         "**/.venv": true
-    }
+    },
+    "cmake.sourceDirectory": "/home/t-t/rm_vision/sandbox/opencv_lab/cpp_test"
 }

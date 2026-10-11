@@ -5,10 +5,10 @@
             "name": "C++ OpenCV Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder:cpp_test}/build/main", // 显式用根名
+            "program": "${workspaceFolder}/build/main", // 显式用根名
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder:cpp_test}/build", // 工作目录必须在 build 下
+            "cwd": "${workspaceFolder}/build", // 工作目录必须在 build 下
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
