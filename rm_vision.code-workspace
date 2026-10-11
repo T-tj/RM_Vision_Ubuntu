@@ -1,0 +1,11 @@
+{
+    "folders": [
+        {
+            "path": "." // 根目录（包含 python_learn 等）
+        },
+        {
+            "path": "sandbox/opencv_lab/cpp_test" // 独立引入 C++ 项目
+        }
+    ],
+    "settings": {}
+}

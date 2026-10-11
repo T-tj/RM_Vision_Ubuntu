@@ -29,8 +29,10 @@ build/
 bin/
 obj/
 Debug/
-Release/
+Release/S
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 
+# ===== opencv =====
+*_out.jpg
