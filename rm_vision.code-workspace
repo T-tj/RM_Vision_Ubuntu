@@ -7,6 +7,10 @@
         {
             "name": "⚙️ C++ OpenCV 项目",
             "path": "sandbox/opencv_lab/cpp_test"
+        },
+        {
+            "name": "🐍 Python OpenCV 项目",
+            "path": "sandbox/opencv_lab/python_test"
         }
     ],
     "settings": {
