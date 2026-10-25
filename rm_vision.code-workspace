@@ -5,11 +5,11 @@
             "path": "."
         },
         {
-            "name": "⚙️ C++ OpenCV 项目",
+            "name": "⚙️ C++ OpenCV_lab ",
             "path": "sandbox/opencv_lab/cpp_test"
         },
         {
-            "name": "🐍 Python OpenCV 项目",
+            "name": "🐍 Python OpenCV_lab ",
             "path": "sandbox/opencv_lab/python_test"
         }
     ],
