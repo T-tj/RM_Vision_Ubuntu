@@ -8,7 +8,7 @@ base_dir = os.path.dirname(os.path.abspath(__file__))
 image_path = os.path.join(base_dir, '..', 'data', 'lena.jpg')
 
 # 3. 读取图片
-img = cv2.imread(image_path)
+img = cv2.imread(image_path,1)
 
 # 2. 校验是否读取成功
 if img is None:
@@ -23,4 +23,4 @@ else:
     # cv2.destroyAllWindows()
     
     # 4. 备用验证：保存一张图片以防无法弹窗显示
-    cv2.imwrite(os.path.join(base_dir, '..', 'data', 'lena_python_out.jpg'), img)
+    cv2.imwrite(os.path.join(base_dir, '..', 'output_py', 'lena_python_out.jpg'), img)
